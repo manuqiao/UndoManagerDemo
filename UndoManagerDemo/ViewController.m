@@ -45,11 +45,11 @@
 }
 
 - (IBAction)undoTapped:(id)sender {
-    
+    [_undoManager undo];
 }
 
 - (IBAction)redoTapped:(id)sender {
-    
+    [_undoManager redo];
 }
 
 @end
